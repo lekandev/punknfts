@@ -3,10 +3,10 @@ import React from "react";
 import "./PunkList.css";
 import CollectionCard from "./CollectionCard";
 
-const PunkList = ({ punListData }) => {
+const PunkList = ({ punkListData }) => {
   return (
     <div className="punkList">
-      {punListData.map((punk) => (
+      {punkListData.map((punk) => (
         <div className="">
           <CollectionCard
             key={punk.token_id}
