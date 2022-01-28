@@ -6,7 +6,7 @@ import CollectionCard from "./CollectionCard";
 const PunkList = ({ punkListData }) => {
   return (
     <div className="punkList">
-      {punkListData.map((punk) => (
+      {punkListData.map(punk => (
         <div className="">
           <CollectionCard
             key={punk.token_id}
